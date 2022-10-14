@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1e1f21;
+  color: #dcdddd;
+  padding: 16px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 32px;
+  margin-right: 8px;
+}
+
+.text {
+  font-size: 32px;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+}
+
+.buttonContainer button {
+  border: unset;
+  background-color: #565759;
+  height: 20px;
+  margin-right: 4px;
+  border-radius: 4px;
+  color: #e6e6e6;
+}
+
+.buttonContainer button:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.arrowButton {
+  outline: unset;
+}
+
+.currentDay {
+  padding: 0 16px;
+  font-weight: bold;
+}
